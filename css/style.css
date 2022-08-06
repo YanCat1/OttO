@@ -1,0 +1,75 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background: #f1f1f1;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.flex{
+    display: flex;
+}
+.flex1{
+    flex:1;
+}
+.column{
+    flex-direction: column;
+}
+.borderBlack{
+    border:1px solid black;
+}
+#box{
+    height:100vh;
+}
+/* 左侧导航栏 */
+#box .left_nav{
+    width:100px;
+    background: rgba(0,0,0,0.9);
+    color: rgb(255,255,255);
+}
+.left_nav .logo{
+    width: 72%;
+    margin: 16%;
+}
+.left_nav  .partition div:hover{
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    filter: unset;
+    transform: translateY(-1px);
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 4px 8px #ddd, -2px -4px 8px #2c2c2e;
+    font-size:18px;
+}
+
+
+.left_nav .partition{
+    height:150px;
+    text-align: center;
+    line-height: 30px;
+}
+.left_nav .partition div{
+    flex:1;
+    border:1px solid rgba(255,255,255);
+}
+
+/* 右侧主体内容 */
+.container{
+    height:100vh;
+    overflow: auto;
+}
+.container .container_nav{
+    height:66px;
+    background: rgba(0,0,0,0.9);
+    color:rgba(255,255,255);
+    line-height: 66px;
+    text-align: center;
+}
+
+
+
+

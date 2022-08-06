@@ -1,0 +1,8 @@
+overflow：auto;
+进行溢出隐藏 完成导航栏不动 内容上下移动效果；
+
+body::-webkit-scrollbar{
+    display: none;
+}
+该样式去除滚动条效果；
+

@@ -70,6 +70,10 @@ body{
     text-align: center;
 }
 
+/* 大图范围 */
+.info img{
+    width:100%;
+}
 
 
 
